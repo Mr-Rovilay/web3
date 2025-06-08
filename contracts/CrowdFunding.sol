@@ -60,7 +60,7 @@ contract CrowdFunding {
     function getCampaigns() public view returns(Campaign[] memory) {
         Campaign[] memory allCampaigns = new Campaign[](numberOfCampaign);
 
-        for (uint256 index = 0; index < numberOfCampaigns; index++) {
+        for (uint index = 0; index < numberOfCampaigns; index++) {
             Campaign storage item = campaigns[index];
 
             allCampaigns(index) = item
