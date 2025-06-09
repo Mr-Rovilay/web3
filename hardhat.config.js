@@ -36,7 +36,7 @@ module.exports = {
     cache: "./cache-zk",
     sources: "./contracts",
     tests: "./test",
-  },
+  },segwergwergwerf
   solidity: {
     version: "0.8.23",
     defaultNetwork: "goerli",
@@ -46,7 +46,7 @@ module.exports = {
         url: "https://rpc.ankr.com/eth_goerli",
         accounts: [`0x${process.env.PRIVATE_KEY}`]
       }
-    },
+    },werg345g34rge3rg
     settings: {
       optimizer: {
         enabled: true,
